@@ -29,6 +29,10 @@ consume("Mary","Poppins", greeting); // Hello Mary Poppins, nice to meet you!
 
 // Explanation: 
 
+// `nestedFunction()` can access the variable `internal` declared in a function 
+// encloding `nestedFunction()` because closure gives a function the 
+// ability to access variables declared outside its lexical scope in the enclosing function 
+// provided the nestedFunction() is invoked after declaration of the variable.
 
 const external = "I'm outside the function";
 
